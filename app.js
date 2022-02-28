@@ -58,7 +58,7 @@ const showCountries = countries => {
                     <h5 class="card-title fw-bold">${country.name.common}</h5>
                     <small class="card-text">Region: ${country.region}</small><br>
                     <small class="card-text">Capital: ${country.capital}</small><br>
-                    <a href="#" onclick="showDetails('${country.name.common}')" class="btn btn-sm btn-primary mt-2">Details</a>
+                    <button onclick="showDetails('${country.name.common}')" class="btn btn-sm btn-primary mt-2">Details</button>
                 </div>
             </div> 
         `;
